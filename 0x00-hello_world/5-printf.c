@@ -1,14 +1,14 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
- *main -prints character
- *
- *Description:the printf function prints a string
- *:with proper grammar, but the outcome is a piece of art
- *Return:0
- */
+  * main- prints the string in the printf function 
+  *
+  *DEscription:using the main function 
+  *this program prints with proper grammar, but the outcome is a piece of art,
+  *Return:0
+  */
 int main(void)
 {
-	printf("wiht proper grammar, but the outcome is a piece of art,\n);
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
