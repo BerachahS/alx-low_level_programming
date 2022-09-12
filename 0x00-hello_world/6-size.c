@@ -1,11 +1,11 @@
 #include<stdio.h>
 
 /**
-  *main - prints the string in the printf function
+  *main - prints the string in the printf function and returns zero
   *
-  *Description:using the main function
-  *this program prints the different sizes of variable types
-  *always return:0
+  *Description: using the main function,
+  *this program prints the different sizes of variable types.
+  *Return: 0
   */
 int main(void)
 {
