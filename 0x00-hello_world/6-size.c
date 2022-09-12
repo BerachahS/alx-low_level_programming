@@ -5,7 +5,7 @@
   *
   *Description:using the main function
   *this program prints the different sizes of variable types
-  *return: 0
+  *always return:0
   */
 int main(void)
 {
