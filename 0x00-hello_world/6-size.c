@@ -5,14 +5,14 @@
   *
   *Description:using the main function
   *this program prints the different sizes of variable types
-  *return:0
+  *return: 0
   */
 int main(void)
 {
 	char c;
 	int i;
-	long int li;
-	long long int lli;
+	long li;
+	long long lli;
 	float f;
 
 	printf("Size of a char: %ld byte(s)\n", sizeof(c));
@@ -22,4 +22,3 @@ int main(void)
 	printf("Size of a float: %ld byte(s)\n", sizeof(f));
 	return (0);
 }
-
