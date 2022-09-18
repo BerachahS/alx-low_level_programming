@@ -2,31 +2,32 @@
 #include<time.h>
 #include<stdiio.h>
 /**
- * main - prints a variabes n  when it is executed
+ * main - prints random numbers into variables
+ *
  * Description: using the main function ,this program
- * will print a variale n and assign it anew value
+ * will print a random number into a variable
  * Return: 0
  */
 int main(void)
 {
 	int n;
-	int l;
+	int l = n % 10;
+	char last[] = "last digit of";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2
-	l = n % 10;
-
-	if (l > 5)
+	printf("%s, %d is %d and is, last digit of, n, l");
+	if (n > 5)
 	{
-		printf("last digit of %d is %d and is greater than 5\n", n, l);
+		printf("greater than 5\n");
 	}
-	else if (l == 0)
+	else if (n == 0)
 	{
-		printf("last digit of %d is %d and is 0\n", n, l);
+		printf("is 0\n");
 	}
 	else
 	{
-		printf("last digit of %d is %d and is less than 6 and 0/n", n, l);
+		printf("is less than 6 and not 0/n");
 	}
 	return (0);
 }
