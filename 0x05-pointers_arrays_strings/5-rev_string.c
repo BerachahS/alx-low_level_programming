@@ -5,14 +5,12 @@
  * rev_string - reverses a string
  * @s: parameter s
  *
- * Return: 0 always 
+ * Return: 0 always
  */
 void rev_string(char *s)
 {
 	char tmp;
-	int i;
-	int length1;
-	int length2;
+	int i, length1, length2;
 
 	length1 = 0;
 	length2 = 0;
@@ -21,7 +19,7 @@ void rev_string(char *s)
 		length1++;
 
 	length2 = length1 - 1;
-	for (i = 0; i < length1; i++)
+	for (i = 0; i < length1 / 2; i++)
 	{
 		tmp = s[i];
 		s[i] = s[length2];
