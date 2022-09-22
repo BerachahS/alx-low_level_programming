@@ -9,18 +9,20 @@
  * @dest: first parameter
  * @src: second parameter
  *
- * Return: pointer to dest
+ * Return: a string
  */
 char *_strcat(char *dest, char *src)
 {
-	int index = 0, dest_len = 0;
+	int len = 0, i;
 
-	while (dest[index++])
-		dest_len++;
+	while (dest[len])
+		len++;
 
-	for (index = 0; src[index]; index++)
+	for (i = 0; src[i] != '0'; i++)
 	{
-		dest[dest_len++] = scr[index];
+		dest[len] = scr[i];
+		len += 1;
 	}
+	dest[len] = '\0';
 	return (dest);
 }
