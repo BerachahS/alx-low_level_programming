@@ -10,7 +10,7 @@
  * @dest: first parameter
  * @src: second parameter
  *
- * Return: string
+ * Return: pointer to dest
  */
 char *_strcat(char *dest, char *src)
 {
@@ -19,7 +19,7 @@ char *_strcat(char *dest, char *src)
 	while (dest[len])
 		len++;
 
-	for (i = 0; src[i] != '0'; i++)
+	for (i = 0; src[i] != '\0'; i++)
 	{
 		dest[len] = scr[i];
 		len += 1;
